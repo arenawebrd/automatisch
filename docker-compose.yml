@@ -13,7 +13,7 @@ services:
       redis:
         condition: service_started
     environment:
-      - HOST=localhost
+      - HOST=https://apps-automtisch.r2mknh.easypanel.host
       - PROTOCOL=http
       - PORT=3100
       - APP_ENV=production
